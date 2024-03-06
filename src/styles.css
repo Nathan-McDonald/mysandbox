@@ -1,0 +1,36 @@
+/* style.css */
+body{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh;
+    background-color: #eba054;
+}
+
+.createAccount {
+    width: 300px;
+    padding: 20px;
+    box-shadow: 0 0 10px rgb(0, 0, 0);
+    background-color: #fff;
+    text-align: center;
+}
+
+input[type=email], input[type=password] {
+    width: 100%;
+    padding: 10px;
+    margin: 10px 0;
+    border: 1px solid #ddd;
+    box-sizing: border-box;
+}
+
+button#loginButton {
+    background-color: #6c757d;
+}
+
+p#passwordStrength, #passwordConstraints {
+    color: red;
+    font-size: 0.8rem;
+    text-align: left;
+    margin-top: -10px;
+    margin-bottom: 10px;
+}
