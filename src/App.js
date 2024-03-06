@@ -1,14 +1,24 @@
 import React from 'react';
-import './App.css';
+import SignInForm from './SignInForm';
 
-
-function App() {
+const App = () => {
   return (
-    <div className="App">
-      {/* Render the CreateAccount component */}
-      <CreateAccount />
+    <div style={styles.container}>
+      <h1 style={styles.title}>Jackpot Junction</h1>
+      <SignInForm />
     </div>
   );
-}
+};
+
+
+const styles = {
+  container: {
+    textAlign: 'center',
+  },
+  title: {
+    marginBottom: '150px',
+    fontSize: '70px',
+  },
+};
 
 export default App;
